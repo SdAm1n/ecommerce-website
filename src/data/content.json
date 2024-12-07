@@ -6,7 +6,7 @@
                 {
                     "title":"Leather Jackets",
                     "description":"Explore Now",
-                    "image":"./src/assets/Images/jackets-category.jpg"
+                    "image":"./src/assets/Images/Leather-Jacket.jpg"
                 },
                 {
                     "title":"Men Shirts",
@@ -19,9 +19,9 @@
                     "image":"./src/assets/Images/WhiteTshirt.jpg"
                 },
                 {
-                    "title":"Hoody and Sweater",
+                    "title":"Men's Jeans",
                     "description":"Explore Now",
-                    "image":"./src/assets/Images/HoodySweater.jpg"
+                    "image":"./src/assets/Images/ManJeans.jpg"
                 }
             ]
         },
@@ -39,9 +39,9 @@
                     "image":"./src/assets/Images/Joggers.jpg"
                 },
                 {
-                    "title":"Women's T-shirts",
+                    "title":"Women's T-shirts & Jeans",
                     "description":"Explore Now",
-                    "image":"./src/assets/Images/WomenTshirt.jpg"
+                    "image":"./src/assets/Images/TShirtJeans.jpg"
                 },
                 {
                     "title":"Women's Jacket",
