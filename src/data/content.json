@@ -1,0 +1,54 @@
+{
+    "categories":[
+        {
+            "title":"Categories for Men",
+            "data":[
+                {
+                    "title":"Leather Jackets",
+                    "description":"Explore Now",
+                    "image":"./src/assets/Images/jackets-category.jpg"
+                },
+                {
+                    "title":"Men Shirts",
+                    "description":"Explore Now",
+                    "image":"./src/assets/Images/TshirtMen.jpg"
+                },
+                {
+                    "title":"Men T-shirts",
+                    "description":"Explore Now",
+                    "image":"./src/assets/Images/WhiteTshirt.jpg"
+                },
+                {
+                    "title":"Hoody and Sweater",
+                    "description":"Explore Now",
+                    "image":"./src/assets/Images/HoodySweater.jpg"
+                }
+            ]
+        },
+        {
+            "title":"Categories for Women",
+            "data":[
+                {
+                    "title":"Weeding Dress",
+                    "description":"Explore Now",
+                    "image":"./src/assets/Images/WedDress.jpg"
+                },
+                {
+                    "title":"Joggers",
+                    "description":"Explore Now",
+                    "image":"./src/assets/Images/Joggers.jpg"
+                },
+                {
+                    "title":"Women's T-shirts",
+                    "description":"Explore Now",
+                    "image":"./src/assets/Images/WomenTshirt.jpg"
+                },
+                {
+                    "title":"Women's Jacket",
+                    "description":"Explore Now",
+                    "image":"./src/assets/Images/WomenJacket.jpg"
+                }
+            ]
+        }
+    ]
+}
