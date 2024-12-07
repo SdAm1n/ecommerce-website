@@ -16,10 +16,10 @@ const Navigation = () => {
             {/*Navigation Items*/}
 
             <ul className='flex gap-14 text-gray-600 hover:text-black'>
+                <li><a href="/shop">Shop</a></li>
                 <li><a href="/men">Men</a></li>
                 <li><a href="/women">Women</a></li>
                 <li><a href="/kids">Kids</a></li>
-                <li><a href="/shop">Shop</a></li>
                 <li><a href="/contactus">Contact us</a></li>
             </ul>
 
