@@ -13,12 +13,9 @@ const SectionHeading = ({title}) => {
   )
 }
 
-SectionHeading.defaultProps = {
-    
-}
 
 SectionHeading.propTypes = {
-    title:String  
+    title: PropTypes.string.isRequired 
 }
 
 export default SectionHeading
