@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 const SectionHeading = ({title}) => {
   return (
@@ -11,11 +10,6 @@ const SectionHeading = ({title}) => {
 
     </div>
   )
-}
-
-
-SectionHeading.propTypes = {
-    title: PropTypes.string.isRequired 
 }
 
 export default SectionHeading
