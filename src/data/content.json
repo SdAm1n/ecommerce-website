@@ -256,7 +256,7 @@
       {
         "id": 1,
         "title": "Black Sweatshirt",
-        "description": "Comfy Black Sweatshirt",
+        "description": "100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. Infinite range of matte-finish HD prints.",
         "category_id": 2,
         "type_id": 10,
         "brand": "Nike",
@@ -506,21 +506,6 @@
         "discount": 300,
         "images": ["black-hoodie1.jpg", "black-hoodie2.jpg"],
         "thumbnail": "https://codedev.b-cdn.net/products/black-hoodie.jpeg",
-        "rating": 4.8
-      },
-      {
-        "id": 18,
-        "title": "Leather Jacket",
-        "description": "Leather Jacket for men",
-        "category_id": 1,
-        "type_id": 20,
-        "brand": "Don't Know",
-        "price": 7000,
-        "size": ["M", "L", "XL"],
-        "color": ["Brown"],
-        "discount": 500,
-        "images": ["jacket1.jpg", "jacket2.jpg"],
-        "thumbnail": "./src/assets/Images/jackets-category.jpg",
         "rating": 4.8
       }
 
