@@ -5,7 +5,7 @@ const Card = ({imagePath, title, description, actionArrow,height, width}) => {
   return (
     <div className='flex flex-col p-6'>
         <img className={`h-[${height? height:'240px'}] max-h-[${height? height:'240px'}] w-[${width? width:'220px'}] 
-        max-w-[${width? width:'220px'}] bg-cover bg-center border rounded hover:scale-105 cursor-pointer`}  
+        max-w-[${width? width:'220px'}] bg-cover bg-center border rounded hover:scale-105 cursor-pointer object-cover`}  
         width={width??"220px"} height={height?? "240px"} src={imagePath} 
         alt="Men Jacket"/>
         
