@@ -18,4 +18,5 @@ We have used(till now): React, Vite, Tailwinds, React-multi-carousel, react-rout
 
 ```bash
 npm install
+npm run dev
 ```
