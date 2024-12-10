@@ -8,3 +8,14 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 We have used(till now): React, Vite, Tailwinds, React-multi-carousel, react-router-dom, react-range-slider-input
+
+## Prerequisites
+
+1. Install Nodejs >= 21.0.0
+2. Install npm
+
+## Installation
+
+```bash
+npm install
+```
