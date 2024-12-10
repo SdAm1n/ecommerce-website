@@ -3,6 +3,9 @@ import Navigation from '../../components/Navigation/Navigation'
 import FilterIcon from '../../components/Common/FilterIcon'
 import content from '../../data/content.json'
 import Categories from '../../components/Filters/Categories'
+import PriceFilter from '../../components/Filters/PriceFilter'
+import ColorsFilter from '../../components/Filters/ColorsFilter'
+import SizeFilter from '../../components/Filters/SizeFilter'
 
 const categories = content?.categories
 
@@ -29,9 +32,21 @@ const ProductListPage = ({categoryType}) => {
                 <div>
                     {/* // filter options */}
                 <p className='text-[16px] text-black mt-5'>Categories</p>
-                    
-
+                <Categories types={categoryContent?.types} />    
+                <hr />
                 </div>
+
+                {/* // Price Filter */}
+                <PriceFilter />
+                <br />
+                <hr />
+
+                {/* // Color Filter*/}
+                <ColorsFilter colors={categoryContent?.meta_data?.colors}/>
+
+                <hr />
+                {/* // Size Filter */}
+                <SizeFilter sizes={categoryContent?.meta_data?.sizes} />
 
             </div>
 
