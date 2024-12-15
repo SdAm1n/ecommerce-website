@@ -7,14 +7,16 @@ import { RouterProvider } from 'react-router-dom'
 import { router } from './Routes.jsx'
 import Navigation from './components/Navigation/Navigation.jsx'
 import ShopAppWrapper from './pages/ShopAppWrapper.jsx'
+import { Provider } from 'react-redux'
+import store from './store/Store.js'
+
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-
+    <Provider store={store}>
     <RouterProvider router={router}>
+      {/* <ShopAppWrapper /> */}
       <ShopAppWrapper />
-      {/* <Shop /> */}
     </RouterProvider>
+    </Provider>
 
-  </StrictMode>
 )
